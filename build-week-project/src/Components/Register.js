@@ -4,6 +4,7 @@ import '../App.css'
 function RegisterForm() {
     return (
         <div>
+             <h1>RegisterForm</h1> 
             <form class="ui form">
                 <div class="field">
                     <label>User Name</label>
@@ -17,7 +18,7 @@ function RegisterForm() {
                    <label>Password</label>
                     <input id = "regPassword" type="text" name="password" placeholder="Password" />
                 </div>
-                <button class="ui button" type="submit">Submit</button>
+                <button class="ui button" id = "regSubmit" type="submit">Submit</button>
             </form>
         </div>
     )

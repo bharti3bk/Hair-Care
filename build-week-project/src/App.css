@@ -23,7 +23,7 @@
   color: #61dafb;
 }  
 
-#userName , #password , #regUserName , #regEmail , #regPassword {
+#userName , #password , #regUserName , #regEmail , #regPassword , #loginSubmit , #regSubmit {
   width:500px;
 }
 

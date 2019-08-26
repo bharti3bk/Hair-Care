@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react' 
+import {Link} from 'react-router-dom'
 import '../App.css'
 
 function LoginForm() {
     return (
-        <div>
+        <div> 
+             <h1>LoginForm</h1> 
             <form class="ui form">
                 <div class="field">
                     <label>UserName</label>
@@ -13,7 +15,10 @@ function LoginForm() {
                     <label>Password</label>
                     <input  id ="password" type="text" name="password" placeholder="Password" />
                 </div>
-                <button class="ui button" type="submit">Submit</button>
+                <button class="ui button" id = "loginSubmit" type="submit">Submit</button> 
+                <div>
+                <Link to ="/reg">Not Enrolled ? Sign up now </Link>
+                </div>
             </form>
         </div>
     )
