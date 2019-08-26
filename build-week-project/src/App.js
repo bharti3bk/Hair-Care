@@ -6,7 +6,7 @@ import RegisterForm from './Components/Register'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <h1>LoginForm</h1> 
       <LoginForm />   
       <h1>RegisterForm</h1> 

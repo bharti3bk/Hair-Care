@@ -21,6 +21,10 @@
 
 .App-link {
   color: #61dafb;
+}  
+
+#userName , #password , #regUserName , #regEmail , #regPassword {
+  width:500px;
 }
 
 @keyframes App-logo-spin {

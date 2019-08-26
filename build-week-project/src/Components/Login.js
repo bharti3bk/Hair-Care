@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 
 function LoginForm() {
     return (
@@ -6,11 +7,11 @@ function LoginForm() {
             <form class="ui form">
                 <div class="field">
                     <label>UserName</label>
-                    <input type="text" name="user-name" placeholder="User Name" />
+                    <input id ="userName" type="text" name="user-name" placeholder="User Name" />
                 </div>
                 <div class="field">
                     <label>Password</label>
-                    <input type="text" name="password" placeholder="Password" />
+                    <input  id ="password" type="text" name="password" placeholder="Password" />
                 </div>
                 <button class="ui button" type="submit">Submit</button>
             </form>
